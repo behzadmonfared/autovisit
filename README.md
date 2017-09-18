@@ -17,7 +17,30 @@ now just run
 ```
 node index.js
 ```
-
+test single ip proxy 
+```
+ pc("52.174.89.111:80","json");
+```
+output
+```json
+{  
+   "as":"AS8075 Microsoft Corporation",
+   "city":"Amsterdam",
+   "country":"Netherlands",
+   "countryCode":"NL",
+   "isp":"Microsoft Corporation",
+   "lat":52.35,
+   "lon":4.9167,
+   "org":"Microsoft Azure",
+   "query":"52.174.89.111",
+   "region":"NH",
+   "regionName":"North Holl 
+and",
+   "status":"success",
+   "timezone":"Europe/Amsterdam",
+   "zip":"1091"
+}
+```
 after rune code 2 file maked ip.txt and validip.txt all ip write to ip and worked proxy write to validip.txt
 
 example ipvalid.txt
